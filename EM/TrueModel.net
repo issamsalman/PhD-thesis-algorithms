@@ -1,0 +1,163 @@
+net 
+{ 
+}
+node A 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node B 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node C 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node D 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node E 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node F 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node G 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node H 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node I 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node J 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node K 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node L 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node M 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node N 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node O 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node P 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node Q 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node R 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node S 
+{
+  states = ( "FALSE" "TRUE" );
+}
+node T 
+{
+  states = ( "FALSE" "TRUE" );
+}
+potential ( A ) 
+{
+  data = ( 0.5 0.5 );
+}
+potential ( B ) 
+{
+  data = ( 0.5 0.5 );
+}
+potential ( C ) 
+{
+  data = ( 0.5 0.5 );
+}
+potential ( D ) 
+{
+  data = ( 0.5 0.5 );
+}
+potential ( E ) 
+{
+  data = ( 0.5 0.5 );
+}
+potential ( F | A O ) 
+{
+  data = (((0.96 0.04)(0.8 0.2))((0.8 0.2)(0.0 1.0))) ;
+}
+potential ( G | A I ) 
+{
+  data = (((0.96 0.04)(0.8 0.2))((0.8 0.2)(0.0 1.0))) ;
+}
+potential ( H ) 
+{
+  data = ( 0.5 0.5 );
+}
+potential ( I ) 
+{
+  data = ( 0.5 0.5 );
+}
+potential ( J ) 
+{
+  data = ( 0.5 0.5 );
+}
+potential ( K | B D ) 
+{
+  data = (((0.96 0.04)(0.8 0.2))((0.8 0.2)(0.0 1.0))) ;
+}
+potential ( L | D I J ) 
+{
+  data = ((((1.0 0.0)(0.2 0.8))((0.2 0.8)(0.04 0.96)))(((0.04 0.96)(0.04 0.96))((0.2 0.8)(0.008 0.992)))) ;
+}
+potential ( M | J ) 
+{
+  data = ((1.0 0.0)(0.2 0.8)) ;
+}
+potential ( N | B C ) 
+{
+  data = (((0.96 0.04)(0.8 0.2))((0.8 0.2)(0.0 1.0))) ;
+}
+potential ( O ) 
+{
+  data = ( 0.5 0.5 );
+}
+potential ( P | E ) 
+{
+  data = ((1.0 0.0)(0.2 0.8)) ;
+}
+potential ( Q | D ) 
+{
+  data = ((1.0 0.0)(0.2 0.8)) ;
+}
+potential ( R | E ) 
+{
+  data = ((1.0 0.0)(0.2 0.8)) ;
+}
+potential ( S | H ) 
+{
+  data = ((1.0 0.0)(0.2 0.8)) ;
+}
+potential ( T | C E H ) 
+{
+  data = ((((1.0 0.0)(0.2 0.8))((0.2 0.8)(0.04 0.96)))(((0.04 0.96)(0.04 0.96))((0.2 0.8)(0.008 0.992)))) ;
+}
