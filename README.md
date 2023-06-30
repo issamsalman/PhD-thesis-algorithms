@@ -12,6 +12,7 @@ Learning TAN, CL, STAN and BN from incomplete and imbalanced data
 	- dplyr
  	- infotheo
   	- ggm
+   	- mclust
 
 2- EM folder: folder for learning BN structure from incomplete data:
 		- install gobnilp from the following link:
