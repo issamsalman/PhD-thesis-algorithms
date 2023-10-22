@@ -1,4 +1,4 @@
-# PhD-thesis-algorithms
+# PhD-thesis-algorithms (Bayesian Networks for Medical Data Analysis})
 Learning TAN, CL, STAN and BN from incomplete and imbalanced data
 
 1-  Ensure that you install the following libraries:
